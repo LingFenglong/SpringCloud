@@ -12,6 +12,9 @@ spring:
     password: 147258369
 
 eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: payment8002
   client:
     register-with-eureka: true
     fetch-registry: true
