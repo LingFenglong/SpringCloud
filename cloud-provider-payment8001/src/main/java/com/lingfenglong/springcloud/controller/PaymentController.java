@@ -46,4 +46,20 @@ public class PaymentController {
         }
     }
 
+    @GetMapping("/lb")
+    public CommonResult<Payment> lb() {
+        return new CommonResult<>(2000, port.toString());
+    }
+
+    @GetMapping("/feign/timeout")
+    public CommonResult<Integer> fineTimeout() {
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+        return new CommonResult<>(200, port.toString());
+    }
+
 }

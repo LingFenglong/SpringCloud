@@ -1,10 +1,10 @@
 server:
-  port: 8004
+  port: 80
 
 
 spring:
   application:
-    name: cloud-provider-payment
+    name: cloud-consumer-payment
   cloud:
     zookeeper:
       connect-string: 192.168.144.132:2181       # 这里连接的是 ZooKeeper 的服务中心

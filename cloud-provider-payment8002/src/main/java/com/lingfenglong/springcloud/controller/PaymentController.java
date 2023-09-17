@@ -46,4 +46,8 @@ public class PaymentController {
         }
     }
 
+    @GetMapping("/lb")
+    public CommonResult<Payment> lb() {
+        return new CommonResult<>(2000, port.toString());
+    }
 }
