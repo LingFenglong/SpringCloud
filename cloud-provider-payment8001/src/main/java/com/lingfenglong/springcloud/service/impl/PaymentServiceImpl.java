@@ -1,6 +1,7 @@
 package com.lingfenglong.springcloud.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.lingfenglong.springcloud.entity.CommonResult;
 import com.lingfenglong.springcloud.entity.Payment;
 import com.lingfenglong.springcloud.mapper.PaymentMapper;
 import com.lingfenglong.springcloud.service.PaymentService;
@@ -17,4 +18,5 @@ public class PaymentServiceImpl extends ServiceImpl<PaymentMapper, Payment> impl
     public Payment getPaymentById(Long id) {
         return baseMapper.selectById(id);
     }
+
 }

@@ -3,6 +3,8 @@ package com.lingfenglong.springcloud.controller;
 import com.lingfenglong.springcloud.entity.CommonResult;
 import com.lingfenglong.springcloud.entity.Payment;
 import com.lingfenglong.springcloud.service.PaymentService;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -62,4 +64,31 @@ public class PaymentController {
         return new CommonResult<>(200, port.toString());
     }
 
+    @GetMapping("/hystrix/ok/{id}")
+    public String paymentInfo_OK(@PathVariable("id") Integer id) {
+        return "paymentInfo --- OK  " + id;
+    }
+
+    @HystrixCommand(fallbackMethod = "fallbackTimeout", commandProperties = {
+            @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "3000")
+    })
+    @GetMapping("/hystrix/timeout/{id}")
+    public String paymentInfo_TimeOut(@PathVariable("id") Integer id) {
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+        return "paymentInfo --- TIMEOUT  " + id;
+    }
+
+    public String fallbackTimeout() {
+        return "8001 --- Timeout!";
+    }
+
+    @GetMapping("/predicate/test")
+    public String predicate() {
+        return "你好";
+    }
 }
