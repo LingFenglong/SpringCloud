@@ -1,0 +1,21 @@
+server:
+  port: 9003
+
+spring:
+  application:
+    name: cloudalibaba-provider-payment
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+# ${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}
+# cloudalibaba-provider-payment-dev.yml
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

@@ -28,6 +28,10 @@
         <module>cloud-stream-rabbitmq-provider8801</module>
         <module>cloud-stream-rabbitmq-consumer8802</module>
         <module>cloud-stream-rabbitmq-consumer8803</module>
+        <module>cloudalibaba-provider-payment9001</module>
+        <module>cloudalibaba-provider-payment9002</module>
+        <module>cloudalibaba-provider-payment9003</module>
+        <module>cloudalibaba-consumer-nacos-order83</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
@@ -85,16 +89,6 @@
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-boot-starter</artifactId>
                 <version>${mybatisplus.spring.boot.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>name.remal.tools.test</groupId>
-                <artifactId>junit5</artifactId>
-                <version>${junit5.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>science.aist.seshat</groupId>
-                <artifactId>log4j2</artifactId>
-                <version>${log4j2.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.projectlombok</groupId>
