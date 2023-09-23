@@ -3,6 +3,14 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/cloud-api-commons/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-api-commons/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config-center-3344/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config-center-3344/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config-client-3345/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config-client-3345/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config-client-3346/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config-client-3346/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config-client-3347/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config-client-3347/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consumer-openfeign-hystrix-order80/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consumer-openfeign-hystrix-order80/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java" charset="UTF-8" />
@@ -25,6 +33,14 @@
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8005/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8006/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8006/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8802/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8802/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/clould-consumerconsul-order80/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/clould-consumerconsul-order80/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/clould-consumerzk-order80/src/main/java" charset="UTF-8" />
