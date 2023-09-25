@@ -11,6 +11,8 @@ spring:
       config:
         server-addr: localhost:8848
         file-extension: yaml
+        namespace: 8fed1e30-2fb4-4c67-8e2c-dc6315bcc959
+        group: TEST_GROUP
 # ${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}
 # cloudalibaba-provider-payment-dev.yml
 
