@@ -7,12 +7,12 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: localhost:8848
+        server-addr: 192.168.144.132:9999
       config:
-        server-addr: localhost:8848
+        server-addr: 192.168.144.132:9999
         file-extension: yaml
 # ${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}
-# cloudalibaba-provider-payment-dev.yml
+# cloudalibaba-provider-payment-dev.yaml
 
 management:
   endpoints:
