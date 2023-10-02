@@ -1,0 +1,23 @@
+server:
+  port: 85
+
+spring:
+  application:
+    name: cloud-consumer-order
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+    sentinel:
+      transport:
+        port: 8719
+        dashboard: localhost:8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+feign:
+  sentinel:
+    enabled: true
