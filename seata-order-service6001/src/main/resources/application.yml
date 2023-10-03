@@ -1,0 +1,34 @@
+server:
+  port: 6001
+
+spring:
+  application:
+    name: order-service
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/seata_order?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 147258369
+
+seata:
+  registry:
+    type: nacos
+  config:
+    nacos:
+      server-addr: localhost:8848
+    data-type: yaml
+  service:
+    vgroup-mapping:
+      default_tx_group: default
+    disable-global-transaction: false
+
+logging:
+  level:
+    io.seata: info
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml

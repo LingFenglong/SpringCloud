@@ -65,6 +65,12 @@
     <file url="file://$PROJECT_DIR$/clould-consumerconsul-order80/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/clould-consumerzk-order80/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/clould-consumerzk-order80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-account-service6003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-account-service6003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-order-service6001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-order-service6001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-storage-service6002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-storage-service6002/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
